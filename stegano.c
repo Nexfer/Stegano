@@ -1,13 +1,11 @@
-#include <stdio.h>
+#include "stegano.h"
 
-int stegano(char *arg[]);
 int stegano(char *arg[])
 {
 	FILE *fmsg,*fpic,*fenc;
 	int i,j,k,size,offset;
 	unsigned char pic_tmp,msg_tmp,tmp;
 
-	//printf("%s\n%s\n%s\n%s\n",arg[0],arg[2],arg[3],arg[4]);
 	switch(arg[1][0])
 	{
 		case 'e':
