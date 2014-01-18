@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "stegano.h"
 
 int main(int argc, char *argv[])
 {
